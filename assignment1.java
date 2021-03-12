@@ -29,9 +29,10 @@ class assignment1{
 
 
     public static void main(String args[]){
-        boolean go=true;
+        boolean add_more=true;
         Scanner sc=new Scanner(System.in);
-        while(go==true){
+
+        while(add_more==true){
             System.out.println();
             System.out.println("====================================================================================================");
             System.out.println("====================================================================================================");
@@ -67,7 +68,7 @@ class assignment1{
             System.out.print("Do you enter deatils of any other item (y/n) ");
             String ch=sc.next();
             if(ch.equals("n")){
-                go=false;
+                add_more=false;
                 System.out.println("Thank you using our application.");
             }
         }
