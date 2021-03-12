@@ -26,6 +26,8 @@ class assignment1{
         }
         return tax;
     }
+
+
     public static void main(String args[]){
         boolean go=true;
         Scanner sc=new Scanner(System.in);
@@ -67,8 +69,8 @@ class assignment1{
             if(ch.equals("n")){
                 go=false;
                 System.out.println("Thank you using our application.");
-                sc.close();;
             }
         }
+        sc.close();;
     }
 }
